@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="to-do.css">
+        <body>
+            <div class="container">
+                <!----to input text-->
+                <div class="header">
+                    <h2 style="text-align: center;">To Do List</h2>
+                    <input type="text" id="myInput" placeholder="Enter your work in your do-list">
+                    <button onclick="newElement()" class="addBtn">ADD</button>
+                  </div>
+                  <!--list of to do--------------------->
+                  <ul id="myUL">
+                    <li>wake up at 5am</li>
+                    <li>Make coffee</li>
+                    <li>breakfast</li>
+                   
+                  </ul>
+               <!--count of work done and left-->
+           <div id="last">
+                  <h4 style="color:white;margin-top: -10px;margin-left: 15px;">work left:<span id="cnt">3</span></h4>
+                  <h4 style="color:white; margin-top: -10px;margin-left: 15px;">work Done:<span id="cnt1">0</span></h4>
+               </div>   
+
+
+
+            </div>
+            <script type="text/javascript" src="to-do.js"></script>
+        </body>
+    </head>
+</html>
